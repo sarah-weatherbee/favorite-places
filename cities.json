@@ -1,0 +1,60 @@
+{
+    "cities":[
+        {
+            "cityName": "Beirut",
+            "cityCountry": "Lebanon",
+            "cityImage": "https://blog.radissonblu.com/wp-content/uploads/2016/04/Beirut-is-a-beautiful-city-and-we-have-gathered-25-photos-that-prove-just-that.jpg",
+            "favoriteRestaurant": "Abu Naim",
+            "favoriteBar": "De Prague",
+            "favoriteHotel": "The Phonecia",
+            "favoriteTouristAttraction": "St. George's Yacht Club"
+        },
+        {
+            "cityName": "Damascus",
+            "cityCountry": "Syria",
+            "cityImage": "https://media.npr.org/assets/img/2016/11/24/gettyimages-479031628-4035d27da3406ef59781701637d472c10311fde7-s800-c85.jpg",
+            "favoriteRestaurant": "Beit Jabri",
+            "favoriteBar": "Knusper",
+            "favoriteHotel": "Four Seasons",
+            "favoriteTouristAttraction": "Souk Hamidiyah"
+
+        },
+        {
+            "cityName": "Cairo",
+            "cityCountry": "Egypt",
+            "cityImage": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/09/18/16/cairo-main.jpg?w968h681",
+            "favoriteRestaurant": "Kentucky Fried Chicken",
+            "favoriteBar": "The corner liquor store",
+            "favoriteHotel": "Kempinski Nile Hotel",
+            "favoriteTouristAttraction": "The pyramids"
+        },
+        {
+            "cityName": "Berlin",
+            "cityCountry": "Germany",
+            "cityImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Berlin_Skyline_Fernsehturm_02.jpg/1200px-Berlin_Skyline_Fernsehturm_02.jpg",
+            "favoriteRestaurant": "Ristorante essenza",
+            "favoriteBar": "Back to Bavaria",
+            "favoriteHotel": "Caro and Axl's",
+            "favoriteTouristAttraction": "Potsdamer Platz"
+        },
+        {
+            "cityName": "Denver, CO",
+            "cityCountry": "USA",
+            "cityImage": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_645,q_50,w_1024/v1/clients/denver/denver_skyline_sunrise_74e8feaa-b49a-4b25-9720-c835907530a9.jpg",
+            "favoriteRestaurant": "The Populist",
+            "favoriteBar": "Charlie Brown's",
+            "favoriteHotel": "John and Mimi's",
+            "favoriteTouristAttraction": "Boulder"
+        },
+        {
+            "cityName": "Louisville, KY",
+            "cityCountry": "USA",
+            "cityImage": "http://www.decaturmagazine.com/wp-content/uploads/2018/09/HereThere-Louisville-main-1024x585.jpg",
+            "favoriteRestaurant": "Jack Fry's",
+            "favoriteBar": "LouVino",
+            "favoriteHotel": "My mom's house",
+            "favoriteTouristAttraction": "My mom's basement"
+        }
+
+    ]
+}
