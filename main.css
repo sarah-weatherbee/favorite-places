@@ -1,3 +1,20 @@
 body {
     background-color: blanchedalmond;
 }
+ img {
+        max-width: 95%;
+        height: auto;
+        border: 1px solid black;
+}
+/*#card {
+    max-height: 500px;
+}
+
+.card {
+    max-height: 400px;
+}
+
+/*.card-body {
+    align-items: center;
+
+}*/  
