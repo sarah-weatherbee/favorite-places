@@ -7,7 +7,8 @@
             "favoriteRestaurant": "Abu Naim",
             "favoriteBar": "De Prague",
             "favoriteHotel": "The Phoenecia",
-            "favoriteTouristAttraction": "St. George's Yacht Club"
+            "favoriteTouristAttraction": "St. George's Yacht Club",
+            "type": "adventure"
         },
         {
             "cityName": "Damascus",
@@ -16,7 +17,8 @@
             "favoriteRestaurant": "Beit Jabri",
             "favoriteBar": "Knusper",
             "favoriteHotel": "Four Seasons",
-            "favoriteTouristAttraction": "Souk Hamidiyah"
+            "favoriteTouristAttraction": "Souk Hamidiyah",
+            "type": "nope"
 
         },
         {
@@ -26,7 +28,8 @@
             "favoriteRestaurant": "Kentucky Fried Chicken",
             "favoriteBar": "The corner liquor store",
             "favoriteHotel": "Kempinski Nile Hotel",
-            "favoriteTouristAttraction": "The pyramids"
+            "favoriteTouristAttraction": "The pyramids",
+            "type": "adventure"
         },
         {
             "cityName": "Berlin",
@@ -35,7 +38,8 @@
             "favoriteRestaurant": "Ristorante essenza",
             "favoriteBar": "Back to Bavaria",
             "favoriteHotel": "Caro and Axl's",
-            "favoriteTouristAttraction": "Potsdamer Platz"
+            "favoriteTouristAttraction": "Potsdamer Platz",
+            "type": "weekend"
         },
         {
             "cityName": "Denver, CO",
@@ -44,7 +48,8 @@
             "favoriteRestaurant": "The Populist",
             "favoriteBar": "Charlie Brown's",
             "favoriteHotel": "John and Mimi's",
-            "favoriteTouristAttraction": "Boulder"
+            "favoriteTouristAttraction": "Boulder",
+            "type": "weekend"
         },
         {
             "cityName": "Louisville, KY",
@@ -53,7 +58,8 @@
             "favoriteRestaurant": "Jack Fry's",
             "favoriteBar": "LouVino",
             "favoriteHotel": "My mom's house",
-            "favoriteTouristAttraction": "My mom's basement"
+            "favoriteTouristAttraction": "My mom's basement",
+            "type": "weekend"
         }
 
     ]
