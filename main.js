@@ -5,6 +5,8 @@ const printToDom = (divId, textToPrint) => {
     selectedDiv.innerHTML = textToPrint;
 };
 
+//put a domStringBuilder looping over arrayToPrint. use a for loop to build up donString
+    //call printToDom
 const domStringBuilder = (arrayToPrint) => {
         console.log(arrayToPrint);
         let domString = '';
@@ -21,9 +23,31 @@ const domStringBuilder = (arrayToPrint) => {
     
         });
         printToDom('city-container', domString);
-    //put a domStringBuilder looping over arrayToPrint. use a for loop to build up donString
-    //call printToDom
 };
+
+const buttonClick = (e) => {
+    const buttonId = e.target.id;
+    const selectedCities = [];
+    cities.forEach((city) => {
+        if (city.type === buttonId) {
+            selectedCities.push(city);
+        }
+    });
+
+    if (buttonId === 'all') {
+        domStringBuilder(cities);
+    } else {
+        domStringBuilder(selectedCities);
+    }  
+};
+
+const buttonEvents = () => {
+    document.getElementById('adventure').addEventListener('click', buttonClick);
+    document.getElementById('nope').addEventListener('click', buttonClick);
+    document.getElementById('weekend').addEventListener('click', buttonClick);
+    document.getElementById('all').addEventListener('click', buttonClick);
+};
+
 
 function executeThisCodeAfterFileLoads() {
     console.log('hi');
@@ -41,13 +65,14 @@ const getCitiesData = () => {
     const myRequest = new XMLHttpRequest();
     myRequest.addEventListener('load', executeThisCodeAfterFileLoads);
     myRequest.addEventListener('error', executeThisCodeifXHRFails);
-    myRequest.open('GET', './cities.json');
+    myRequest.open('GET', './db/cities.json');
     myRequest.send();
 };
 
 const init = () => {
     getCitiesData();
-    // domStringBuilder(cities);
+    buttonEvents();
+    domStringBuilder(cities);
 
 };
 
