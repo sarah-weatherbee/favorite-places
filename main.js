@@ -11,14 +11,16 @@ const domStringBuilder = (arrayToPrint) => {
         console.log(arrayToPrint);
         let domString = '';
         arrayToPrint.forEach((city) => {
-            domString += `<div class="card col-4">`;
+            domString += `<div class="col-4 d-flex">`;
+            domString += `<div class="card">`;
             domString += `<h3 class="card-title">${city.cityName}</h3>`;
             domString += `<h6>${city.cityCountry}</h6>`;
             domString += `<img src="${city.cityImage}" class="card-img-top" alt="...">`;
-            domString += `<h6>Favorite restaurant: ${city.favoriteRestaurant}</h6>`;
-            domString += `<h6>Favorite bar: ${city.favoriteBar}</h6>`;
-            domString += `<h6>Favorite hotel: ${city.favoriteHotel}</h6>`;
-            domString += `<h6>Favorite tourist attraction: ${city.favoriteTouristAttraction}</h6>`;
+            domString += `<h6><strong>Favorite restaurant:</strong> ${city.favoriteRestaurant}</h6>`;
+            domString += `<h6><strong>Favorite bar:</strong> ${city.favoriteBar}</h6>`;
+            domString += `<h6><strong>Favorite hotel:</strong> ${city.favoriteHotel}</h6>`;
+            domString += `<h6><strong>Favorite tourist attraction:</strong> ${city.favoriteTouristAttraction}</h6>`;
+            domString += `</div>`;
             domString += `</div>`;
     
         });
