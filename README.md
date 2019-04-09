@@ -1,10 +1,10 @@
-#favorite-places
+# favorite-places
 A few of my favorite places, sortable by your vacation preference. Built using bootstrap, html, CSS and JS.
 
-## ## Screenshots
-![image of places](https://raw.githubusercontent.com/sarah-weatherbee/temperature-converter/master/screenshots/places_1.png)
+## Screenshots
+![image of places](https://raw.githubusercontent.com/sarah-weatherbee/favorite-places/master/screenshots/places_1.png)
 
-![image of places](https://raw.githubusercontent.com/sarah-weatherbee/temperature-converter/master/screenshots/places_2.png)
+![image of places](https://raw.githubusercontent.com/sarah-weatherbee/favorite-places/master/screenshots/places_2.png)
 
 ## Getting Started
 
